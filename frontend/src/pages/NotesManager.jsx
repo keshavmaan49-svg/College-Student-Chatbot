@@ -49,7 +49,7 @@ export default function NotesManager() {
     setSavingStatus('Saving...');
     const timer = setTimeout(async () => {
       try {
-        await api.put(`/notes/${activeNote._id}`, {
+        await api.put(`/api/notes/${activeNote._id}`, {
           title: activeNote.title,
           content: activeNote.content
         });
@@ -69,7 +69,7 @@ export default function NotesManager() {
   const fetchNotes = async () => {
     try {
       setLoading(true);
-      const data = await api.get('/notes');
+      const data = await api.get('/api/notes');
       setNotes(data);
       if (data.length > 0) {
         handleSelectNote(data[0]);
@@ -83,7 +83,7 @@ export default function NotesManager() {
 
   const handleCreateNote = async () => {
     try {
-      const newNote = await api.post('/notes', {
+      const newNote = await api.post('/api/notes', {
         title: 'Untitled Study Note',
         content: ''
       });
@@ -109,7 +109,7 @@ export default function NotesManager() {
     if (e) e.stopPropagation();
     if (!confirm('Are you sure you want to delete this note?')) return;
     try {
-      await api.delete(`/notes/${id}`);
+      await api.delete(`/api/notes/${id}`);
       setNotes(prev => prev.filter(n => n._id !== id));
       if (activeNote?._id === id) {
         setActiveNote(null);
@@ -129,7 +129,7 @@ export default function NotesManager() {
     setAnalyzing(true);
     setAnalyzeError('');
     try {
-      const updated = await api.post(`/notes/${activeNote._id}/analyze`);
+      const updated = await api.post(`/api/notes/${activeNote._id}/analyze`);
       setActiveNote(updated);
       setNotes(prev => prev.map(n => n._id === updated._id ? updated : n));
       // Reset quiz

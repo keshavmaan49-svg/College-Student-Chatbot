@@ -78,7 +78,7 @@ export default function ChatPage() {
 
   const fetchChats = async () => {
     try {
-      const data = await api.get('/chat');
+      const data = await api.get('/api/chat');
       setChats(data);
       if (data.length > 0 && !activeChatId) {
         setActiveChatId(data[0]._id);
@@ -90,7 +90,7 @@ export default function ChatPage() {
 
   const fetchMessages = async (chatId) => {
     try {
-      const data = await api.get(`/chat/${chatId}/messages`);
+      const data = await api.get(`/api/chat/${chatId}/messages`);
       setMessages(data);
     } catch (err) {
       console.error(err);
@@ -99,7 +99,7 @@ export default function ChatPage() {
 
   const handleCreateChat = async () => {
     try {
-      const newChat = await api.post('/chat', { title: 'New Conversation' });
+      const newChat = await api.post('/api/chat', { title: 'New Conversation' });
       setChats(prev => [newChat, ...prev]);
       setActiveChatId(newChat._id);
     } catch (err) {
@@ -110,7 +110,7 @@ export default function ChatPage() {
   const handleDeleteChat = async (chatId, e) => {
     e.stopPropagation();
     try {
-      await api.delete(`/chat/${chatId}`);
+      await api.delete(`/api/chat/${chatId}`);
       const updatedChats = chats.filter(c => c._id !== chatId);
       setChats(updatedChats);
       if (activeChatId === chatId) {
@@ -138,7 +138,7 @@ export default function ChatPage() {
 
       // Create a new chat if one doesn't exist yet
       if (!currentChatId) {
-        const newChat = await api.post('/chat', { title: 'New Conversation' });
+        const newChat = await api.post('/api/chat', { title: 'New Conversation' });
         currentChatId = newChat._id;
         setActiveChatId(newChat._id);
         setChats(prev => [newChat, ...prev]);
@@ -150,7 +150,7 @@ export default function ChatPage() {
         queryText = `[Please respond in ${language}] ${userText}`;
       }
 
-      const res = await api.post(`/chat/${currentChatId}/messages`, { message: queryText });
+      const res = await api.post(`/api/chat/${currentChatId}/messages`, { message: queryText });
       
       // Update messages with official list
       setMessages(res.chat.messages);

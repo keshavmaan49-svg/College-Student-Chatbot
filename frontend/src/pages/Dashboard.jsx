@@ -30,12 +30,12 @@ export default function Dashboard({ setActivePage }) {
       try {
         setLoading(true);
         // Fetch values from backend API
-        const attRes = await api.get('/tools/attendance');
-        const gpaRes = await api.get('/tools/gpa');
-        const ttRes = await api.get('/tools/timetable');
-        const checkRes = await api.get('/tools/checklist');
-        const chatRes = await api.get('/chat');
-        const notesRes = await api.get('/notes');
+        const attRes = await api.get('/api/tools/attendance');
+        const gpaRes = await api.get('/api/tools/gpa');
+        const ttRes = await api.get('/api/tools/timetable');
+        const checkRes = await api.get('/api/tools/checklist');
+        const chatRes = await api.get('/api/chat');
+        const notesRes = await api.get('/api/notes');
 
         setAttendance(attRes.data || []);
         setGpaData(gpaRes.data || null);
@@ -59,7 +59,7 @@ export default function Dashboard({ setActivePage }) {
     );
     setChecklist(updated);
     try {
-      await api.put('/tools/checklist', { data: updated });
+      await api.put('/api/tools/checklist', { data: updated });
     } catch (e) {
       console.error(e);
     }
@@ -79,7 +79,7 @@ export default function Dashboard({ setActivePage }) {
     setNewChecklistItem('');
 
     try {
-      await api.put('/tools/checklist', { data: updated });
+      await api.put('/api/tools/checklist', { data: updated });
     } catch (e) {
       console.error(e);
     }

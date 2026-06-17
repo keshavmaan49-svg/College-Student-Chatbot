@@ -36,7 +36,7 @@ export default function GpaCalculator() {
   const fetchGpa = async () => {
     try {
       setLoading(true);
-      const res = await api.get('/tools/gpa');
+      const res = await api.get('/api/tools/gpa');
       setGpaData(res.data || { currentCgpa: 8.2, targetCgpa: 8.5, semesters: [] });
     } catch (e) {
       console.error(e);
@@ -48,7 +48,7 @@ export default function GpaCalculator() {
   const saveGpa = async (updatedData) => {
     setGpaData(updatedData);
     try {
-      await api.put('/tools/gpa', { data: updatedData });
+      await api.put('/api/tools/gpa', { data: updatedData });
     } catch (e) {
       console.error('Failed to sync GPA data:', e);
     }

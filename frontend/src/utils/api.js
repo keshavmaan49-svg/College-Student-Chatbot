@@ -1,4 +1,5 @@
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5001/api';
+const rawBase = import.meta.env.VITE_API_BASE || 'http://localhost:5001';
+const API_BASE = rawBase.endsWith('/') ? rawBase.slice(0, -1) : rawBase;
 
 const getHeaders = () => {
   const token = localStorage.getItem('token');

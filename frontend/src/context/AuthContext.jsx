@@ -12,7 +12,7 @@ export const AuthProvider = ({ children }) => {
       const token = localStorage.getItem('token');
       if (token) {
         try {
-          const userData = await api.get('/auth/me');
+          const userData = await api.get('/api/auth/me');
           setUser(userData);
         } catch (err) {
           console.error('Session restoring failed, logging out:', err);
@@ -28,7 +28,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     setLoading(true);
     try {
-      const data = await api.post('/auth/login', { email, password });
+      const data = await api.post('/api/auth/login', { email, password });
       localStorage.setItem('token', data.token);
       setUser(data.user);
       return data.user;
@@ -40,7 +40,7 @@ export const AuthProvider = ({ children }) => {
   const register = async (name, email, password) => {
     setLoading(true);
     try {
-      const data = await api.post('/auth/register', { name, email, password });
+      const data = await api.post('/api/auth/register', { name, email, password });
       localStorage.setItem('token', data.token);
       setUser(data.user);
       return data.user;
@@ -52,7 +52,7 @@ export const AuthProvider = ({ children }) => {
   const googleLogin = async (googleUserData) => {
     setLoading(true);
     try {
-      const data = await api.post('/auth/google-login', googleUserData);
+      const data = await api.post('/api/auth/google-login', googleUserData);
       localStorage.setItem('token', data.token);
       setUser(data.user);
       return data.user;
@@ -68,7 +68,7 @@ export const AuthProvider = ({ children }) => {
 
   const updateSettings = async (settingsData) => {
     try {
-      const updatedUser = await api.put('/auth/settings', settingsData);
+      const updatedUser = await api.put('/api/auth/settings', settingsData);
       setUser(updatedUser);
       return updatedUser;
     } catch (err) {

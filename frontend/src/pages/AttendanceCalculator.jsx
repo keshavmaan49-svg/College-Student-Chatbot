@@ -28,7 +28,7 @@ export default function AttendanceCalculator() {
   const fetchAttendance = async () => {
     try {
       setLoading(true);
-      const res = await api.get('/tools/attendance');
+      const res = await api.get('/api/tools/attendance');
       setCourses(res.data || []);
     } catch (e) {
       console.error(e);
@@ -40,7 +40,7 @@ export default function AttendanceCalculator() {
   const saveCourses = async (updatedCourses) => {
     setCourses(updatedCourses);
     try {
-      await api.put('/tools/attendance', { data: updatedCourses });
+      await api.put('/api/tools/attendance', { data: updatedCourses });
     } catch (e) {
       console.error('Failed to sync attendance:', e);
     }
