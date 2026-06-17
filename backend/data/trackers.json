@@ -1,0 +1,436 @@
+[
+  {
+    "_id": "l3idxnb5g",
+    "createdAt": "2026-06-16T19:31:07.323Z",
+    "updatedAt": "2026-06-16T19:31:07.323Z",
+    "userId": "nodmv39e5",
+    "type": "attendance",
+    "data": [
+      {
+        "id": "1",
+        "courseName": "Computer Networks",
+        "conducted": 20,
+        "attended": 17,
+        "target": 75
+      },
+      {
+        "id": "2",
+        "courseName": "Database Management Systems",
+        "conducted": 18,
+        "attended": 15,
+        "target": 75
+      },
+      {
+        "id": "3",
+        "courseName": "Design & Analysis of Algorithms",
+        "conducted": 24,
+        "attended": 21,
+        "target": 75
+      },
+      {
+        "id": "4",
+        "courseName": "Theory of Computation",
+        "conducted": 16,
+        "attended": 11,
+        "target": 75
+      }
+    ]
+  },
+  {
+    "_id": "h4r4laq30",
+    "createdAt": "2026-06-16T19:31:07.329Z",
+    "updatedAt": "2026-06-16T19:40:40.411Z",
+    "userId": "nodmv39e5",
+    "type": "gpa",
+    "data": {
+      "currentCgpa": 8,
+      "targetCgpa": 8.5,
+      "semesters": [
+        {
+          "semName": "Semester 1",
+          "gpa": 8,
+          "courses": [
+            {
+              "id": "rhmcr8q",
+              "courseName": "New Subject",
+              "credits": 4,
+              "grade": "A"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "_id": "h06w5bad2",
+    "createdAt": "2026-06-16T19:31:07.333Z",
+    "updatedAt": "2026-06-16T19:31:07.333Z",
+    "userId": "nodmv39e5",
+    "type": "timetable",
+    "data": {
+      "Monday": [
+        {
+          "id": "1",
+          "time": "09:00 AM - 10:00 AM",
+          "subject": "DBMS",
+          "room": "LHC-201"
+        },
+        {
+          "id": "2",
+          "time": "11:00 AM - 12:00 PM",
+          "subject": "Networks",
+          "room": "LHC-102"
+        }
+      ],
+      "Tuesday": [
+        {
+          "id": "1",
+          "time": "10:00 AM - 11:00 AM",
+          "subject": "Algorithms",
+          "room": "LHC-204"
+        }
+      ],
+      "Wednesday": [
+        {
+          "id": "1",
+          "time": "09:00 AM - 10:00 AM",
+          "subject": "DBMS",
+          "room": "LHC-201"
+        },
+        {
+          "id": "2",
+          "time": "01:00 PM - 02:00 PM",
+          "subject": "TOC",
+          "room": "LHC-105"
+        }
+      ],
+      "Thursday": [
+        {
+          "id": "1",
+          "time": "10:00 AM - 11:00 AM",
+          "subject": "Algorithms",
+          "room": "LHC-204"
+        }
+      ],
+      "Friday": [
+        {
+          "id": "1",
+          "time": "11:00 AM - 12:00 PM",
+          "subject": "Networks",
+          "room": "LHC-102"
+        },
+        {
+          "id": "2",
+          "time": "02:00 PM - 03:00 PM",
+          "subject": "Lab",
+          "room": "Lab-3"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "skxbnew3l",
+    "createdAt": "2026-06-16T19:31:07.341Z",
+    "updatedAt": "2026-06-16T19:46:05.195Z",
+    "userId": "nodmv39e5",
+    "type": "checklist",
+    "data": [
+      {
+        "id": "1",
+        "text": "Revise DBMS normal forms",
+        "completed": false
+      },
+      {
+        "id": "2",
+        "text": "Solve 5 LeetCode array questions",
+        "completed": true
+      },
+      {
+        "id": "3",
+        "text": "Prepare SRM seminar slides",
+        "completed": true
+      },
+      {
+        "id": "4",
+        "text": "Apply for Web Dev internship",
+        "completed": true
+      },
+      {
+        "id": "r20fcqq",
+        "text": "ghjkl;",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "_id": "20jds2v8u",
+    "createdAt": "2026-06-16T19:49:19.390Z",
+    "updatedAt": "2026-06-17T11:14:44.249Z",
+    "userId": "ygpumgbnz",
+    "type": "attendance",
+    "data": [
+      {
+        "id": "1",
+        "courseName": "Computer Networks",
+        "conducted": 20,
+        "attended": 17,
+        "target": 75
+      },
+      {
+        "id": "2",
+        "courseName": "Database Management Systems",
+        "conducted": 18,
+        "attended": 18,
+        "target": 75
+      },
+      {
+        "id": "3",
+        "courseName": "Design & Analysis of Algorithms",
+        "conducted": 24,
+        "attended": 21,
+        "target": 75
+      },
+      {
+        "id": "4",
+        "courseName": "Theory of Computation",
+        "conducted": 16,
+        "attended": 11,
+        "target": 75
+      }
+    ]
+  },
+  {
+    "_id": "d9xlwkzpw",
+    "createdAt": "2026-06-16T19:49:19.396Z",
+    "updatedAt": "2026-06-16T19:49:19.396Z",
+    "userId": "ygpumgbnz",
+    "type": "gpa",
+    "data": {
+      "currentCgpa": 8.2,
+      "targetCgpa": 8.5,
+      "semesters": [
+        {
+          "semName": "Semester 1",
+          "gpa": 8,
+          "courses": [
+            {
+              "id": "1",
+              "courseName": "Mathematics I",
+              "credits": 4,
+              "grade": "A"
+            },
+            {
+              "id": "2",
+              "courseName": "Physics",
+              "credits": 3,
+              "grade": "B"
+            },
+            {
+              "id": "3",
+              "courseName": "Programming in C",
+              "credits": 4,
+              "grade": "A+"
+            }
+          ]
+        },
+        {
+          "semName": "Semester 2",
+          "gpa": 8.4,
+          "courses": [
+            {
+              "id": "1",
+              "courseName": "Mathematics II",
+              "credits": 4,
+              "grade": "A"
+            },
+            {
+              "id": "2",
+              "courseName": "Data Structures",
+              "credits": 4,
+              "grade": "A+"
+            },
+            {
+              "id": "3",
+              "courseName": "Digital Electronics",
+              "credits": 3,
+              "grade": "B+"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "_id": "fqv2faloq",
+    "createdAt": "2026-06-16T19:49:19.401Z",
+    "updatedAt": "2026-06-16T19:49:19.401Z",
+    "userId": "ygpumgbnz",
+    "type": "timetable",
+    "data": {
+      "Monday": [
+        {
+          "id": "1",
+          "time": "09:00 AM - 10:00 AM",
+          "subject": "DBMS",
+          "room": "LHC-201"
+        },
+        {
+          "id": "2",
+          "time": "11:00 AM - 12:00 PM",
+          "subject": "Networks",
+          "room": "LHC-102"
+        }
+      ],
+      "Tuesday": [
+        {
+          "id": "1",
+          "time": "10:00 AM - 11:00 AM",
+          "subject": "Algorithms",
+          "room": "LHC-204"
+        }
+      ],
+      "Wednesday": [
+        {
+          "id": "1",
+          "time": "09:00 AM - 10:00 AM",
+          "subject": "DBMS",
+          "room": "LHC-201"
+        },
+        {
+          "id": "2",
+          "time": "01:00 PM - 02:00 PM",
+          "subject": "TOC",
+          "room": "LHC-105"
+        }
+      ],
+      "Thursday": [
+        {
+          "id": "1",
+          "time": "10:00 AM - 11:00 AM",
+          "subject": "Algorithms",
+          "room": "LHC-204"
+        }
+      ],
+      "Friday": [
+        {
+          "id": "1",
+          "time": "11:00 AM - 12:00 PM",
+          "subject": "Networks",
+          "room": "LHC-102"
+        },
+        {
+          "id": "2",
+          "time": "02:00 PM - 03:00 PM",
+          "subject": "Lab",
+          "room": "Lab-3"
+        }
+      ]
+    }
+  },
+  {
+    "_id": "xwtbq35fu",
+    "createdAt": "2026-06-16T19:49:19.408Z",
+    "updatedAt": "2026-06-17T11:14:23.883Z",
+    "userId": "ygpumgbnz",
+    "type": "checklist",
+    "data": [
+      {
+        "id": "1",
+        "text": "Revise DBMS normal forms",
+        "completed": false
+      },
+      {
+        "id": "2",
+        "text": "Solve 5 LeetCode array questions",
+        "completed": false
+      },
+      {
+        "id": "3",
+        "text": "Prepare SRM seminar slides",
+        "completed": false
+      },
+      {
+        "id": "4",
+        "text": "Apply for Web Dev internship",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "_id": "6iym2gix8",
+    "createdAt": "2026-06-17T11:44:30.112Z",
+    "updatedAt": "2026-06-17T11:48:29.185Z",
+    "userId": "cv4zmmd3k",
+    "type": "attendance",
+    "data": [
+      {
+        "id": "sippe6z",
+        "courseName": "wdfg",
+        "conducted": 0,
+        "attended": 0,
+        "target": 75
+      },
+      {
+        "id": "7nh95wr",
+        "courseName": "3werfg",
+        "conducted": 0,
+        "attended": 0,
+        "target": 75
+      },
+      {
+        "id": "vz5po5x",
+        "courseName": "dsf",
+        "conducted": 0,
+        "attended": 0,
+        "target": 75
+      }
+    ]
+  },
+  {
+    "_id": "bqtpyfs89",
+    "createdAt": "2026-06-17T11:44:30.117Z",
+    "updatedAt": "2026-06-17T11:49:08.670Z",
+    "userId": "cv4zmmd3k",
+    "type": "gpa",
+    "data": {
+      "currentCgpa": 9,
+      "targetCgpa": 0,
+      "semesters": [
+        {
+          "semName": "Semester 1",
+          "gpa": 9,
+          "courses": [
+            {
+              "id": "qhtc8ff",
+              "courseName": "New Subject",
+              "credits": 4,
+              "grade": "A+"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "_id": "4bpr0esya",
+    "createdAt": "2026-06-17T11:44:30.124Z",
+    "updatedAt": "2026-06-17T11:44:30.124Z",
+    "userId": "cv4zmmd3k",
+    "type": "timetable",
+    "data": {
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": []
+    }
+  },
+  {
+    "_id": "jjv37gkho",
+    "createdAt": "2026-06-17T11:44:30.130Z",
+    "updatedAt": "2026-06-17T11:44:30.130Z",
+    "userId": "cv4zmmd3k",
+    "type": "checklist",
+    "data": []
+  }
+]

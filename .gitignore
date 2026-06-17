@@ -1,0 +1,35 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+frontend/dist/
+frontend/dist-ssr/
+
+# Environment configurations
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System & Editor files
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backend uploads
+backend/uploads/*
+!backend/uploads/.gitkeep

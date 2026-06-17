@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "nodmv39e5",
+    "createdAt": "2026-06-16T19:31:07.300Z",
+    "updatedAt": "2026-06-16T19:31:07.300Z",
+    "name": "Keshav Maan",
+    "email": "keshav.maan@fake-college.edu",
+    "googleId": "google-oauth-simulated-id-777",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=KeshavMaan",
+    "settings": {
+      "theme": "dark",
+      "aiProvider": "mock",
+      "customApiKey": ""
+    }
+  },
+  {
+    "_id": "ygpumgbnz",
+    "createdAt": "2026-06-16T19:49:07.919Z",
+    "updatedAt": "2026-06-16T19:49:07.921Z",
+    "name": "Keshav Maan",
+    "email": "keshavmaan@college.edu",
+    "password": "$2a$10$aZ/gURNvPdg0/52RbleW6.dMLuGK1AJSS2KatFILDR5MuNmyaVe9G",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=KeshavMaan",
+    "settings": {
+      "theme": "dark",
+      "aiProvider": "mock",
+      "customApiKey": ""
+    }
+  },
+  {
+    "_id": "cv4zmmd3k",
+    "createdAt": "2026-06-17T11:44:30.086Z",
+    "updatedAt": "2026-06-17T11:44:30.086Z",
+    "name": "IamCasanova",
+    "email": "keshavmaan49@gmail.com",
+    "password": "$2a$10$dedMhqLh0uFnZZbmngX.ouyjUdpSxMNSeF5PFRzvrrpFQPfkJCsbS",
+    "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=IamCasanova",
+    "settings": {
+      "theme": "dark",
+      "aiProvider": "mock",
+      "customApiKey": ""
+    }
+  }
+]

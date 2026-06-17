@@ -1,0 +1,226 @@
+[
+  {
+    "_id": "mxtwhyb2j",
+    "createdAt": "2026-06-16T19:31:25.096Z",
+    "updatedAt": "2026-06-16T19:31:57.745Z",
+    "messages": [
+      {
+        "sender": "user",
+        "text": "Generate a preparation roadmap for GATE CSE.",
+        "timestamp": "2026-06-16T19:31:27.716Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "### 📚 GATE (Graduate Aptitude Test in Engineering) Preparation Checklist\n\nGATE prep requires structured planning. Here is your roadmap:\n*   **Engineering Mathematics & General Aptitude**: Accounts for ~28% of total marks. Do not skip this!\n*   **Core Computer Science Syllabus**:\n    *   *Theory of Computation & Compiler Design*\n    *   *Computer Organization & Architecture*\n    *   *Database Management Systems (DBMS)*\n    *   *Algorithms & Data Structures*\n    *   *Computer Networks*\n*   **Preparation Strategy**:\n    1.  Complete 80% syllabus by October.\n    2.  Start solving Previous Years Question Papers (PYQs) from November.\n    3.  Attempt at least 15-20 full-length mock tests.\n    4.  Analyze mistake logs and revise weekly.",
+        "timestamp": "2026-06-16T19:31:27.718Z"
+      },
+      {
+        "sender": "user",
+        "text": "whay ios dsa",
+        "timestamp": "2026-06-16T19:31:35.865Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "Hello! I am your AI College Student Assistant. How can I help you today?\n\nHere are some things we can discuss:\n*   **Academics**: Explain core concepts, solve coding problems, or explain GATE subjects.\n*   **College Tools**: Use the **Attendance Calculator** or **GPA Predictor** to track your progress.\n*   **Career**: Ask me for resume review feedback, skill roadmap generator, or internship search.\n*   **Notes**: Upload a document in **Notes Manager** and I'll generate flashcards and quizzes for you!\n*   **Indian Colleges**: Ask me specific queries about **SRM University** guidelines or **Shiv Nadar University (SNU)** admission helper templates.",
+        "timestamp": "2026-06-16T19:31:35.866Z"
+      },
+      {
+        "sender": "user",
+        "text": "defination of dsa",
+        "timestamp": "2026-06-16T19:31:50.318Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "Hello! I am your AI College Student Assistant. How can I help you today?\n\nHere are some things we can discuss:\n*   **Academics**: Explain core concepts, solve coding problems, or explain GATE subjects.\n*   **College Tools**: Use the **Attendance Calculator** or **GPA Predictor** to track your progress.\n*   **Career**: Ask me for resume review feedback, skill roadmap generator, or internship search.\n*   **Notes**: Upload a document in **Notes Manager** and I'll generate flashcards and quizzes for you!\n*   **Indian Colleges**: Ask me specific queries about **SRM University** guidelines or **Shiv Nadar University (SNU)** admission helper templates.",
+        "timestamp": "2026-06-16T19:31:50.319Z"
+      },
+      {
+        "sender": "user",
+        "text": "solve coding problems,",
+        "timestamp": "2026-06-16T19:31:57.744Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "Hello! I am your AI College Student Assistant. How can I help you today?\n\nHere are some things we can discuss:\n*   **Academics**: Explain core concepts, solve coding problems, or explain GATE subjects.\n*   **College Tools**: Use the **Attendance Calculator** or **GPA Predictor** to track your progress.\n*   **Career**: Ask me for resume review feedback, skill roadmap generator, or internship search.\n*   **Notes**: Upload a document in **Notes Manager** and I'll generate flashcards and quizzes for you!\n*   **Indian Colleges**: Ask me specific queries about **SRM University** guidelines or **Shiv Nadar University (SNU)** admission helper templates.",
+        "timestamp": "2026-06-16T19:31:57.745Z"
+      }
+    ],
+    "userId": "nodmv39e5",
+    "title": "Generate a preparation roadmap..."
+  },
+  {
+    "_id": "730crn7k6",
+    "createdAt": "2026-06-16T19:32:01.552Z",
+    "updatedAt": "2026-06-16T19:38:00.554Z",
+    "messages": [
+      {
+        "sender": "user",
+        "text": "solve coding problems,",
+        "timestamp": "2026-06-16T19:32:03.773Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "Hello! I am your AI College Student Assistant. How can I help you today?\n\nHere are some things we can discuss:\n*   **Academics**: Explain core concepts, solve coding problems, or explain GATE subjects.\n*   **College Tools**: Use the **Attendance Calculator** or **GPA Predictor** to track your progress.\n*   **Career**: Ask me for resume review feedback, skill roadmap generator, or internship search.\n*   **Notes**: Upload a document in **Notes Manager** and I'll generate flashcards and quizzes for you!\n*   **Indian Colleges**: Ask me specific queries about **SRM University** guidelines or **Shiv Nadar University (SNU)** admission helper templates.",
+        "timestamp": "2026-06-16T19:32:03.774Z"
+      },
+      {
+        "sender": "user",
+        "text": "hi",
+        "timestamp": "2026-06-16T19:36:51.435Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "Hello! Ready to dive into your studies? \n\nAsk me questions about **algorithms** (like *Dijkstra*), **operating systems** (like *deadlocks*), **databases** (like *normalization*), or ask for *resume reviews* and *placement guides*!",
+        "timestamp": "2026-06-16T19:36:51.436Z"
+      },
+      {
+        "sender": "user",
+        "text": "Expectation Step ",
+        "timestamp": "2026-06-16T19:37:29.614Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "You asked about **\"expectation step\"**. \n\nHere is what you should focus on for this topic:\n1.  **Core Definition**: Understand how it interacts with key parameters in software engineering.\n2.  **Exam Importance**: This is a common topic in university end-semesters and carries 5-10 marks.\n3.  **Next Step**: Try searching for a specific algorithm name (like *Dijkstra* or *Sliding Window*) or open the **Notes Manager** to upload lecture handouts on this topic!",
+        "timestamp": "2026-06-16T19:37:29.615Z"
+      },
+      {
+        "sender": "user",
+        "text": "what is argocd",
+        "timestamp": "2026-06-16T19:37:43.358Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "You asked about **\"argocd\"**. \n\nHere is what you should focus on for this topic:\n1.  **Core Definition**: Understand how it interacts with key parameters in software engineering.\n2.  **Exam Importance**: This is a common topic in university end-semesters and carries 5-10 marks.\n3.  **Next Step**: Try searching for a specific algorithm name (like *Dijkstra* or *Sliding Window*) or open the **Notes Manager** to upload lecture handouts on this topic!",
+        "timestamp": "2026-06-16T19:37:43.359Z"
+      },
+      {
+        "sender": "user",
+        "text": "sliding window",
+        "timestamp": "2026-06-16T19:38:00.553Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "### 🪟 Sliding Window Algorithm Pattern\n\nThe **Sliding Window Pattern** is a software design pattern used to perform an operation on a specific window size of a given buffer (like an array or a string) to solve problems efficiently (typically reducing (O(n^2)) checks to (O(n)) linear time).\n\n**Common Use Case**: Finding the maximum sum subarray of size `k`.\n```javascript\nfunction maxSubarraySum(arr, k) {\n  let maxSum = 0, windowSum = 0;\n  // Initialize first window sum\n  for (let i = 0; i < k; i++) windowSum += arr[i];\n  maxSum = windowSum;\n  \n  // Slide the window across the array\n  for (let i = k; i < arr.length; i++) {\n    windowSum += arr[i] - arr[i - k]; // Add next element, subtract first element of previous window\n    maxSum = Math.max(maxSum, windowSum);\n  }\n  return maxSum;\n}\n```\n",
+        "timestamp": "2026-06-16T19:38:00.553Z"
+      }
+    ],
+    "userId": "nodmv39e5",
+    "title": "solve coding problems,..."
+  },
+  {
+    "_id": "x2yj7eij7",
+    "createdAt": "2026-06-16T19:41:22.528Z",
+    "updatedAt": "2026-06-16T19:44:07.356Z",
+    "messages": [
+      {
+        "sender": "user",
+        "text": "css",
+        "timestamp": "2026-06-16T19:41:24.744Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "Hello! I am your AI College Student Assistant. How can I help you today?\n\nHere are some things we can discuss:\n*   **Academics**: Explain core concepts, solve coding problems, or explain GATE subjects.\n*   **College Tools**: Use the **Attendance Calculator** or **GPA Predictor** to track your progress.\n*   **Career**: Ask me for resume review feedback, skill roadmap generator, or internship search.\n*   **Notes**: Upload a document in **Notes Manager** and I'll generate flashcards and quizzes for you!\n*   **Indian Colleges**: Ask me specific queries about **SRM University** guidelines or **Shiv Nadar University (SNU)** admission helper templates.",
+        "timestamp": "2026-06-16T19:41:24.746Z"
+      },
+      {
+        "sender": "user",
+        "text": "what is css",
+        "timestamp": "2026-06-16T19:41:28.710Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "You asked about **\"css\"**. \n\nHere is what you should focus on for this topic:\n1.  **Core Definition**: Understand how it interacts with key parameters in software engineering.\n2.  **Exam Importance**: This is a common topic in university end-semesters and carries 5-10 marks.\n3.  **Next Step**: Try searching for a specific algorithm name (like *Dijkstra* or *Sliding Window*) or open the **Notes Manager** to upload lecture handouts on this topic!",
+        "timestamp": "2026-06-16T19:41:28.710Z"
+      },
+      {
+        "sender": "user",
+        "text": "how are u?",
+        "timestamp": "2026-06-16T19:41:34.910Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "You asked about **\"how are u?\"**. \n\nHere is what you should focus on for this topic:\n1.  **Core Definition**: Understand how it interacts with key parameters in software engineering.\n2.  **Exam Importance**: This is a common topic in university end-semesters and carries 5-10 marks.\n3.  **Next Step**: Try searching for a specific algorithm name (like *Dijkstra* or *Sliding Window*) or open the **Notes Manager** to upload lecture handouts on this topic!",
+        "timestamp": "2026-06-16T19:41:34.910Z"
+      },
+      {
+        "sender": "user",
+        "text": "WHT IS CSS",
+        "timestamp": "2026-06-16T19:43:41.339Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "### 🎨 Cascading Style Sheets (CSS)\n\n**CSS** is the language used to style an HTML document. It describes how HTML elements should be rendered on screen, paper, or in other media.\n\n**Core CSS Concepts**:\n1.  **Box Model**: The foundation of CSS layout. Consists of:\n    *   *Content*: The text or image.\n    *   *Padding*: Clears an area around the content (transparent).\n    *   *Border*: Goes around the padding and content.\n    *   *Margin*: Clears an area outside the border (transparent).\n2.  **Flexbox Layout**: A one-dimensional layout model for distributing space and aligning items in a container (using `display: flex`).\n3.  **CSS Grid**: A two-dimensional grid-based layout system that handles both columns and rows.\n4.  **Media Queries**: Used to apply styles based on device characteristics (e.g., screen width: `@media (max-width: 768px)`).",
+        "timestamp": "2026-06-16T19:43:41.340Z"
+      },
+      {
+        "sender": "user",
+        "text": "WHAT IS HTML",
+        "timestamp": "2026-06-16T19:43:48.719Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "### 📄 HyperText Markup Language (HTML)\n\n**HTML** is the standard markup language for documents designed to be displayed in a web browser. It defines the structure and content of a web page using a series of elements/tags.\n\n**Core HTML Structure**:\n```html\n<!DOCTYPE html>\n<html>\n<head>\n  <title>Student Page</title>\n</head>\n<body>\n  <h1>Hello World</h1>\n  <p>This is a paragraph.</p>\n</body>\n</html>\n```",
+        "timestamp": "2026-06-16T19:43:48.720Z"
+      },
+      {
+        "sender": "user",
+        "text": "WHAT IS JAVASCRIPT",
+        "timestamp": "2026-06-16T19:43:54.328Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "**JAVASCRIPT** is a key area of study in engineering curriculum. \n    \nTypically, it covers the core frameworks, operational guidelines, and architectural layers required to construct and validate modular workflows.\n\n*💡 Tip: For specific custom study aids, try uploading slides or handouts on this topic in the **Notes Manager** sidebar to generate customized quizzes and flashcards automatically!*",
+        "timestamp": "2026-06-16T19:43:54.329Z"
+      },
+      {
+        "sender": "user",
+        "text": "CAN U CODE A NUMBER 2=TO ADD TWO NUMBERS",
+        "timestamp": "2026-06-16T19:44:07.356Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "### 💻 Programming Assistant\n\nHere is a breakdown of how to write modular, clean code:\n-   **Single Responsibility Principle**: Ensure each function does only one thing.\n-   **Error Handling**: Always wrap asynchronous calls or network operations in `try/catch` blocks.\n-   **Self-Documenting Code**: Choose descriptive names over generic ones.\n\nExample of a clean API handler in Node.js:\n```javascript\n// Fetch user profile with proper error handling\napp.get('/api/user/:id', async (req, res) => {\n  try {\n    const user = await User.findById(req.params.id);\n    if (!user) return res.status(404).json({ message: 'User not found' });\n    res.json(user);\n  } catch (error) {\n    res.status(500).json({ error: error.message });\n  }\n});\n```\nLet me know if you want me to write code or debug a specific script for you!",
+        "timestamp": "2026-06-16T19:44:07.356Z"
+      }
+    ],
+    "userId": "nodmv39e5",
+    "title": "css..."
+  },
+  {
+    "_id": "377ud7gq2",
+    "createdAt": "2026-06-16T19:51:17.047Z",
+    "updatedAt": "2026-06-16T19:51:24.505Z",
+    "messages": [
+      {
+        "sender": "user",
+        "text": "Help me understand the sliding window DSA algorithm.",
+        "timestamp": "2026-06-16T19:51:21.139Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "### 🪟 Sliding Window Algorithm Pattern\n\nThe **Sliding Window Pattern** is a software design pattern used to perform an operation on a specific window size of a given buffer (like an array or a string) to solve problems efficiently (typically reducing (O(n^2)) checks to (O(n)) linear time).\n\n**Common Use Case**: Finding the maximum sum subarray of size `k`.\n```javascript\nfunction maxSubarraySum(arr, k) {\n  let maxSum = 0, windowSum = 0;\n  // Initialize first window sum\n  for (let i = 0; i < k; i++) windowSum += arr[i];\n  maxSum = windowSum;\n  \n  // Slide the window across the array\n  for (let i = k; i < arr.length; i++) {\n    windowSum += arr[i] - arr[i - k]; // Add next element, subtract first element of previous window\n    maxSum = Math.max(maxSum, windowSum);\n  }\n  return maxSum;\n}\n```",
+        "timestamp": "2026-06-16T19:51:21.141Z"
+      },
+      {
+        "sender": "user",
+        "text": "HI",
+        "timestamp": "2026-06-16T19:51:24.505Z"
+      },
+      {
+        "sender": "assistant",
+        "text": "Hello! I am Aegis AI, your College Student Companion. How can I help you study today? \n\nFeel free to ask me about core computer science topics like **CSS**, **HTML**, **React hooks**, **Dijkstra's algorithm**, **database normal forms**, or **operating system deadlocks**!",
+        "timestamp": "2026-06-16T19:51:24.505Z"
+      }
+    ],
+    "userId": "ygpumgbnz",
+    "title": "Help me understand the..."
+  },
+  {
+    "_id": "t2kgiy4op",
+    "createdAt": "2026-06-17T11:48:40.171Z",
+    "updatedAt": "2026-06-17T11:48:40.171Z",
+    "messages": [],
+    "userId": "cv4zmmd3k",
+    "title": "New Conversation"
+  }
+]
