@@ -51,8 +51,8 @@ export default function Sidebar({ activePage, setActivePage, sidebarOpen, setSid
               <BookOpen className="w-6 h-6" />
             </div>
             <div>
-              <h1 className="text-lg font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-indigo-400">
-                Aegis AI
+              <h1 className="text-lg font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-emerald-400">
+                Aegis
               </h1>
               <p className="text-[10px] text-slate-500 font-medium">STUDENT COMPANION</p>
             </div>

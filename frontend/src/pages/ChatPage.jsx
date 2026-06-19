@@ -213,7 +213,7 @@ export default function ChatPage() {
   const handleExportChat = () => {
     if (messages.length === 0) return;
     
-    let textContent = `Aegis AI Chatbot Conversation History\nExported on: ${new Date().toLocaleString()}\n\n`;
+    let textContent = `Aegis Conversation History\nExported on: ${new Date().toLocaleString()}\n\n`;
     messages.forEach(msg => {
       const senderName = msg.sender === 'user' ? 'STUDENT' : 'ASSISTANT';
       textContent += `[${senderName} - ${new Date(msg.timestamp).toLocaleTimeString()}]\n${msg.text}\n\n`;

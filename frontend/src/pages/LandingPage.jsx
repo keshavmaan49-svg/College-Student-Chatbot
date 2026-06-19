@@ -3,12 +3,36 @@ import { Sparkles, MessageSquare, BookOpen, Calculator, CheckSquare, Award, Arro
 
 export default function LandingPage({ onGetStarted }) {
   const features = [
-    { icon: MessageSquare, title: 'AI Assistant', desc: 'Instantly get answers to programming, academic, and conceptual queries.' },
-    { icon: BookOpen, title: 'Notes Summarizer', desc: 'Upload PDFs, PPTs, or DOCX, and auto-generate study guides, quizzes, and flashcards.' },
-    { icon: CheckSquare, title: 'Attendance Calculator', desc: 'Maintain your target percentage easily with automatic skip or attend class calculations.' },
-    { icon: Calculator, title: 'GPA Predictor', desc: 'Input grades, calculate your CGPA, and predict scores required for upcoming terms.' },
-    { icon: Award, title: 'Placement preparation', desc: 'Build an elegant 1-page resume, generate skill roadmaps, and practice mock coding interviews.' },
-    { icon: Sparkles, title: 'Smart Study Planner', desc: 'Receive personalized study notifications, weekly checklists, and timetable alerts.' }
+    { 
+      icon: MessageSquare, 
+      title: 'AI Learning Assistant', 
+      desc: 'Multi-turn conversational chatbot with voice dictation and text-to-speech, supporting six languages (English, Hindi, Spanish, French, Tamil, Telugu).' 
+    },
+    { 
+      icon: BookOpen, 
+      title: 'AI Study Vault', 
+      desc: 'Notes editor with debounced auto-saving and AI-generated study decks; flashcards with 3D flip animations built using CSS 3D perspective.' 
+    },
+    { 
+      icon: CheckSquare, 
+      title: 'Attendance Planner', 
+      desc: 'Attendance tracker with a condonation calculator and a dynamic advisor for attendance optimization.' 
+    },
+    { 
+      icon: Calculator, 
+      title: 'GPA Calculator', 
+      desc: 'Indian 10-point ledger with semester GPA tracking and a CGPA predictor that estimates grades required to hit future targets.' 
+    },
+    { 
+      icon: Sparkles, 
+      title: 'Multi-Model AI Orchestration', 
+      desc: 'Integrated OpenAI GPT-4o-mini and Google Gemini 1.5 with automatic fallback to a local keyword-matching engine.' 
+    },
+    { 
+      icon: Award, 
+      title: 'PDF Resume Builder', 
+      desc: 'Interactive CV creator using native browser print-to-PDF with media-query CSS for clean print output.' 
+    }
   ];
 
   return (
@@ -23,7 +47,7 @@ export default function LandingPage({ onGetStarted }) {
           <div className="p-2 rounded-lg bg-brand-500/10 text-brand-500">
             <BookOpen className="w-6 h-6" />
           </div>
-          <span className="text-xl font-bold tracking-wider text-white">Aegis AI</span>
+          <span className="text-xl font-bold tracking-wider text-white">Aegis</span>
         </div>
         <button 
           onClick={onGetStarted}
@@ -38,17 +62,17 @@ export default function LandingPage({ onGetStarted }) {
         {/* Left Side */}
         <div className="space-y-8 text-left">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-xs font-semibold">
-            <Sparkles className="w-3.5 h-3.5" /> All-In-One College Companion
+            <Sparkles className="w-3.5 h-3.5" /> Aegis Companion
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
             Elevate Your <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-indigo-400">
-              College Journey
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-emerald-400">
+              College Studies
             </span> <br />
-            With Academic AI.
+            With Aegis Companion.
           </h1>
           <p className="text-slate-400 text-base md:text-lg max-w-lg">
-            Manage attendance, calculate CGPA, summarize lengthy PDFs, prepare for placements, and doubt-solve with your personal 24/7 AI tutor.
+            Manage attendance, calculate CGPA, organize lecture notes, draft professional resumes, and study with an intelligent learning companion.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-2">
             <button 
@@ -69,24 +93,24 @@ export default function LandingPage({ onGetStarted }) {
             <div>•</div>
             <div>COLLEGE & UNIVERSITY READY</div>
             <div>•</div>
-            <div>ZERO API CONFIG SETUP</div>
+            <div>OFFLINE ENGINE FALLBACK</div>
           </div>
         </div>
 
         {/* Right Side: Mock UI Card */}
         <div className="relative">
           {/* Decorative gradients */}
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-500 to-indigo-500 rounded-2xl filter blur-3xl opacity-10 -z-10 transform scale-95 animate-pulse-slow"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-500 to-emerald-500 rounded-2xl filter blur-3xl opacity-10 -z-10 transform scale-95 animate-pulse-slow"></div>
 
           {/* Floating UI Widget */}
           <div className="glass-panel p-6 rounded-2xl border border-slate-800 shadow-2xl relative">
             <div className="flex items-center justify-between pb-4 border-b border-slate-800/60 mb-4">
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded-full bg-red-500"></div>
-                <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                <div className="w-3 h-3 rounded-full bg-red-500/80"></div>
+                <div className="w-3 h-3 rounded-full bg-yellow-500/80"></div>
+                <div className="w-3 h-3 rounded-full bg-green-500/80"></div>
               </div>
-              <span className="text-xs text-slate-500">Aegis AI Assistant v1.0</span>
+              <span className="text-xs text-slate-500">Aegis Companion</span>
             </div>
 
             {/* Simulated Chat bubbles */}
@@ -102,7 +126,7 @@ export default function LandingPage({ onGetStarted }) {
                 <div className="p-3 rounded-2xl bg-brand-600 text-left max-w-[80%] text-white shadow-md">
                   According to your log: you have attended **17 out of 20 classes (85%)**. Skipping 3 lectures will put you at **17/23 (73.9%)**, which is below your 75% target! You can skip at most **1** lecture.
                 </div>
-                <div className="w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center text-xs font-bold text-white">AI</div>
+                <div className="w-8 h-8 rounded-full bg-emerald-600 flex items-center justify-center text-xs font-bold text-white">AC</div>
               </div>
             </div>
 
@@ -118,7 +142,7 @@ export default function LandingPage({ onGetStarted }) {
               </div>
               <div className="text-center p-2 rounded-xl bg-slate-950/40 border border-slate-800/40">
                 <div className="text-[10px] text-slate-500 font-semibold uppercase">QUIZZES</div>
-                <div className="text-sm font-bold text-indigo-400">12 / 12</div>
+                <div className="text-sm font-bold text-emerald-400">12 / 12</div>
               </div>
             </div>
           </div>
@@ -130,7 +154,7 @@ export default function LandingPage({ onGetStarted }) {
         <div className="text-center max-w-xl mx-auto mb-16 space-y-3">
           <h2 className="text-3xl font-bold">Unmatched Academic Tools</h2>
           <p className="text-slate-400 text-sm">
-            Everything a university student needs, packed into a single, high-performance web suite with glassmorphic visuals.
+            Everything a university student needs, packed into a single, high-performance web suite with glassmorphic olive visuals.
           </p>
         </div>
 
@@ -140,7 +164,7 @@ export default function LandingPage({ onGetStarted }) {
             return (
               <div 
                 key={index}
-                className="glass-card p-6 flex flex-col items-start gap-4 text-left border border-slate-900"
+                className="glass-card p-6 flex flex-col items-start gap-4 text-left border border-slate-800 hover:shadow-brand-500/5 hover:-translate-y-0.5 transition-all duration-300"
               >
                 <div className="p-3 rounded-xl bg-brand-500/10 text-brand-400 border border-brand-500/20">
                   <Icon className="w-5 h-5" />
@@ -155,7 +179,7 @@ export default function LandingPage({ onGetStarted }) {
 
       {/* Footer */}
       <footer className="h-16 border-t border-slate-900/60 px-6 flex items-center justify-between text-xs text-slate-500 max-w-7xl mx-auto w-full z-10">
-        <div>© 2026 Aegis AI Student Platform.</div>
+        <div>© 2026 Aegis Student Platform.</div>
         <div>Built for modern university students.</div>
       </footer>
     </div>

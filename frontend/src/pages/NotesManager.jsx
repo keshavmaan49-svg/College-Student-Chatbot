@@ -316,10 +316,10 @@ export default function NotesManager() {
               <div className="flex-grow flex flex-col min-h-0">
                 {!activeNote.summary ? (
                   <div className="glass-panel p-8 rounded-2xl border border-slate-800/80 text-center text-slate-500 text-xs flex flex-col items-center justify-center py-12">
-                    <Sparkles className="w-8 h-8 text-indigo-400/40 mb-3" />
+                    <Sparkles className="w-8 h-8 text-emerald-400/40 mb-3" />
                     <span className="font-bold text-slate-400">AI Study Vault is Ready</span>
                     <p className="max-w-xs text-slate-500 mt-1 text-center">
-                      Type study notes above and click the AI button. Aegis AI will automatically analyze your content to construct flashcards, summary points, and a practice quiz.
+                      Type study notes above and click the AI button. Aegis will automatically analyze your content to construct flashcards, summary points, and a practice quiz.
                     </p>
                   </div>
                 ) : (

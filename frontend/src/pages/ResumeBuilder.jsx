@@ -50,7 +50,7 @@ export default function ResumeBuilder() {
           { id: '1', company: 'NextGen Software Corp', role: 'Software Engineer Intern', duration: 'Summer 2025', desc: 'Developed core features for a cloud-based CRM tool using React and Node.js. Reduced API response times by 15% through query optimizations.' }
         ]);
         setProjects([
-          { id: '1', title: 'Aegis AI Student Assistant', tech: 'React, Node.js, Express, MongoDB', desc: 'An all-in-one student dashboard with AI chatbots, attendance logs, and PDF summary generators. Implemented double-database local fallbacks.' }
+          { id: '1', title: 'Aegis Student Hub', tech: 'React, Node.js, Express, MongoDB', desc: 'An all-in-one student productivity dashboard with interactive note managers, attendance loggers, and automated study guide generators.' }
         ]);
         setSkills('React.js, Node.js, Express, MongoDB, JavaScript, Python, C++, Data Structures & Algorithms, Git, Tailwind CSS');
       } else {

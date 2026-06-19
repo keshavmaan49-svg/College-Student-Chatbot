@@ -1,17 +1,32 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-50: #f5f3ff;
-  --color-brand-100: #ede9fe;
-  --color-brand-200: #ddd6fe;
-  --color-brand-300: #c4b5fd;
-  --color-brand-400: #a78bfa;
-  --color-brand-500: #8b5cf6;
-  --color-brand-600: #7c3aed;
-  --color-brand-700: #6d28d9;
-  --color-brand-800: #5b21b6;
-  --color-brand-900: #4c1d95;
-  --color-brand-950: #2e1065;
+  /* Sage/Olive Green Brand Color Scheme */
+  --color-brand-50: #f3f6f1;
+  --color-brand-100: #e4eada;
+  --color-brand-200: #cbdbb9;
+  --color-brand-300: #adc793;
+  --color-brand-400: #8fae6d;
+  --color-brand-500: #608043; /* Primary Olive */
+  --color-brand-600: #4b6534;
+  --color-brand-700: #394d27;
+  --color-brand-800: #28361b;
+  --color-brand-900: #182110;
+  --color-brand-950: #0d1209;
+
+  /* Olive-tinted Slate colors for a bespoke premium dark workspace */
+  --color-slate-50: #f7f8f6;
+  --color-slate-100: #eff0ed;
+  --color-slate-200: #dbddd6;
+  --color-slate-300: #bec1b4;
+  --color-slate-400: #9ba08e;
+  --color-slate-500: #7c826e;
+  --color-slate-600: #626855;
+  --color-slate-700: #4f5344;
+  --color-slate-800: #232720; /* Deep olive border */
+  --color-slate-900: #0f120e; /* Deep olive panels */
+  --color-slate-950: #070906; /* Deep forest black background */
+
   --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   --animate-bounce-slow: bounce 3s infinite;
 }
@@ -36,7 +51,7 @@
 }
 
 .glass-card {
-  @apply backdrop-blur-md bg-slate-950/40 border border-slate-900 hover:border-brand-500/30 transition-all duration-300 rounded-2xl shadow-lg hover:shadow-brand-500/5;
+  @apply backdrop-blur-md bg-slate-950/40 border border-slate-800 hover:border-brand-500/30 transition-all duration-300 rounded-2xl shadow-lg hover:shadow-brand-500/5;
 }
 
 .light .glass-card {
@@ -52,7 +67,7 @@
 }
 
 .glass-btn-primary {
-  @apply px-5 py-3 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-500 hover:to-indigo-500 text-white font-medium shadow-lg hover:shadow-brand-500/20 transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0 disabled:opacity-50 disabled:pointer-events-none;
+  @apply px-5 py-3 rounded-xl bg-gradient-to-r from-brand-600 to-emerald-700 hover:from-brand-500 hover:to-emerald-600 text-white font-medium shadow-lg hover:shadow-brand-500/20 transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0 disabled:opacity-50 disabled:pointer-events-none;
 }
 
 .glass-btn-secondary {
@@ -89,13 +104,13 @@
   @apply bg-slate-300;
 }
 
-/* Gradient backgrounds for blobs */
+/* Gradient backgrounds for blobs - Green/Olive theme */
 .glow-blob-purple {
-  @apply absolute rounded-full bg-purple-500/10 blur-[120px] pointer-events-none animate-pulse-slow;
+  @apply absolute rounded-full bg-brand-500/8 blur-[120px] pointer-events-none animate-pulse-slow;
 }
 
 .glow-blob-cyan {
-  @apply absolute rounded-full bg-cyan-500/10 blur-[120px] pointer-events-none animate-pulse-slow;
+  @apply absolute rounded-full bg-emerald-600/8 blur-[120px] pointer-events-none animate-pulse-slow;
 }
 
 /* 3D Card Flip Utilities */
@@ -113,10 +128,10 @@
   transform: rotateY(180deg);
 }
 
-/* Premium Tech Grid Background */
+/* Premium Tech Grid Background - Sage Green Grid lines */
 .grid-bg {
   background-image: 
-    linear-gradient(to right, rgba(99, 102, 241, 0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(99, 102, 241, 0.05) 1px, transparent 1px);
+    linear-gradient(to right, rgba(96, 128, 67, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(96, 128, 67, 0.03) 1px, transparent 1px);
   background-size: 32px 32px;
 }
